@@ -1105,6 +1105,29 @@ section {
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.1);
 }
 
+.img{
+  border-radius: 10px;
+  height: 350px;
+  width: 900px;
+  overflow: hidden;
+  margin-right:20px ;
+  box-sizing: border-box;
+}
+
+.desc{
+  font-size: large;
+  font-weight:600;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name{
+font-style: oblique;
+font-size: 40px;
+font-weight: bolder;
+border-bottom: dotted;
+color: rgb(4 115 104);;
+}
+
 .team .member img {
   border-radius: 10px;
   height: 350px;

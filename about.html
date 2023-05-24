@@ -9,6 +9,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Fancybox Links -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -124,14 +128,50 @@
         <h2>Our Team</h2>
         <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
       </div>
+      
+      <!-- Fancy-Box Code Start -->
+      
+      <div id="shrey" style="display: none;">
+        <center><h4 class="name">Shrey Purohit</h4></center>
+        <div style="display: flex;">
+          <img class="img" src="assets/img/team/shrey.jpeg" alt="">
+          <p class="desc"> Mr. Satish Mehta is the first-generation entrepreneur and visionary who started Emcure in 1981 with the purpose to provide affordable and high quality healthcare to patients to significantly improve their lives. Under Mr. Mehta’s leadership, Emcure has become a well-respected name in the global pharma market with its presence in more than 70 countries through its subsidiaries in UK, Canada, Singapore, Brazil and other countries.</p>
+        </div>
+      </div>
+
+      <div id="megh" style="display: none;">
+        <center><h4 class="name">Megh Shah</h4></center>
+        <div style="display: flex;">
+          <img class="img" src="assets/img/team/megh.jpeg" alt="">
+          <p class="desc"> Mr. Satish Mehta is the first-generation entrepreneur and visionary who started Emcure in 1981 with the purpose to provide affordable and high quality healthcare to patients to significantly improve their lives. Under Mr. Mehta’s leadership, Emcure has become a well-respected name in the global pharma market with its presence in more than 70 countries through its subsidiaries in UK, Canada, Singapore, Brazil and other countries.</p>
+        </div>
+      </div>
+
+      <div id="mann" style="display: none;">
+        <center><h4 class="name">Mann Desai</h4></center>
+        <div style="display: flex;">
+          <img class="img" src="assets/img/team/Mann.jpeg" alt="">
+          <p class="desc"> Mr. Satish Mehta is the first-generation entrepreneur and visionary who started Emcure in 1981 with the purpose to provide affordable and high quality healthcare to patients to significantly improve their lives. Under Mr. Mehta’s leadership, Emcure has become a well-respected name in the global pharma market with its presence in more than 70 countries through its subsidiaries in UK, Canada, Singapore, Brazil and other countries.</p>
+        </div>
+      </div>
+      
+      <div id="tilak" style="display: none;">
+        <center><h4 class="name">Tilak Brahmbhatt</h4></center>
+        <div style="display: flex;">
+          <img class="img" src="assets/img/team/tilak.png" alt="">
+          <p class="desc"> Mr. Satish Mehta is the first-generation entrepreneur and visionary who started Emcure in 1981 with the purpose to provide affordable and high quality healthcare to patients to significantly improve their lives. Under Mr. Mehta’s leadership, Emcure has become a well-respected name in the global pharma market with its presence in more than 70 countries through its subsidiaries in UK, Canada, Singapore, Brazil and other countries.</p>
+        </div>
+      </div>
+
+      <!-- Fancy-Box Code End -->
 
       <div class="row gy-4">
 
         <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
           <div class="member">
-            <img src="assets/img/team/shrey.jpeg" class="img-fluid" alt="">
-            <h4>Shrey Purohit</h4>
-            <span>Web Development</span>
+            <img src="assets/img/team/shrey.jpeg" class="img-fluid" data-fancybox data-src="#shrey" alt="">
+            <h4 data-fancybox data-src="#shrey">Shrey Purohit</h4>
+            <span data-fancybox data-src="#shrey">Web Development</span>
             <div class="social">
               <a href="https://twitter.com/Shrey1906"  target="_blank"><i class="bi bi-twitter"></i></a>
               <a href="https://www.facebook.com/shrey.patel.90475069?mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -143,9 +183,9 @@
 
         <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
           <div class="member">
-            <img src="assets/img/team/megh.jpeg" class="img-fluid" alt="">
-            <h4>Megh Shah</h4>
-            <span>Web Development</span>
+            <img src="assets/img/team/megh.jpeg" class="img-fluid" data-fancybox data-src="#megh" alt="">
+            <h4 data-fancybox data-src="#megh">Megh Shah</h4>
+            <span data-fancybox data-src="#megh">Web Development</span>
             <div class="social">
               <a href="https://twitter.com/Meghshah04?t=CllsgckkLRBABKkRx4ljFw&s=08" target="_blank"><i class="bi bi-twitter"></i></a>
               <a href="https://www.facebook.com/megh.shah.338?mibextid=ZbWKwL" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -157,9 +197,9 @@
 
         <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
           <div class="member">
-            <img src="assets/img/team/Mann.jpeg" class="img-fluid" alt="">
-            <h4>Mann Desai</h4>
-            <span>Web Development</span>
+            <img src="assets/img/team/Mann.jpeg" class="img-fluid" data-fancybox data-src="#mann" alt="">
+            <h4 data-fancybox data-src="#mann">Mann Desai</h4>
+            <span data-fancybox data-src="#mann">Web Development</span>
             <div class="social">
               <a href="https://twitter.com/manndesai03" target="_blank"><i class="bi bi-twitter"></i></a>
               <a href="https://www.facebook.com/profile.php?id=100082299310720" target="_blank"><i class="bi bi-facebook"></i></a>
@@ -171,13 +211,13 @@
 
         <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
           <div class="member">
-            <img src="assets/img/team/tilak.png" class="img-fluid" alt="">
-            <h4>Tilak Brahmbhatt</h4>
-            <span>Web Development</span>
+            <img src="assets/img/team/tilak.png" class="img-fluid" data-fancybox data-src="#tilak" alt="">
+            <h4 data-fancybox data-src="#tilak">Tilak Brahmbhatt</h4>
+            <span data-fancybox data-src="#tilak">Web Development</span>
             <div class="social">
               <a href="https://twitter.com/Tilak_B02" target="_blank"><i class="bi bi-twitter"></i></a>
               <a href="https://www.facebook.com/bhavin.brahmbhatt.50" target="_blank"><i class="bi bi-facebook"></i></a>
-              <a href="https://github.com/Tilak2002" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://github.com/Tilak2002" target="_blank"><i class="bi bi-github"></i></a>
               <a href="https://www.linkedin.com/in/tilak-brahmbhatt-311825212" target="_blank"><i class="bi bi-linkedin"></i></a>
             </div>
           </div>
